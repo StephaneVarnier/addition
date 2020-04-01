@@ -11,7 +11,19 @@
 		<maven.compiler.source>1.8</maven.compiler.source>
 		<maven.compiler.target>1.8</maven.compiler.target>
 		<jsf.version>2.1.7</jsf.version>
+
+		<jenkins-test-harness.version>2.34</jenkins-test-harness.version>
 	</properties>
+
+	<build>
+		<plugins>
+			<plugin>
+				<groupId> org.aoache.maven.plugins</groupId>
+				<artifactId>maven-war-plugin</artifactId>
+				<version>3.2.3</version>
+			</plugin>
+		</plugins>
+	</build>
 
 	<dependencies>
 
